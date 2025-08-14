@@ -3,7 +3,7 @@ package conceptos.estructurascontrol.switchcase;
 public class EjemploExpresiones {
 
   public static void main(String[] args) {
-    int dia = 8;
+    int dia = 3;
 
     String nombreDia = switch (dia) {
       case 1 -> "Lunes";

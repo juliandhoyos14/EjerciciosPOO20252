@@ -10,7 +10,7 @@ public class EjemploTernario {
 
     int a = 10;
     int b = 5;
-    int mayor = ((a > b) && (a ==10)) ? a : b;
+    int mayor = ((a > b)) ? a : b;
 
     System.out.println("El mayor es: " + mayor);
   }

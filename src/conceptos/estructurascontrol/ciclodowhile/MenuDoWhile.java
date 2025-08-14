@@ -15,19 +15,25 @@ public class MenuDoWhile {
       System.out.println("2. Opción 2");
       System.out.println("3. Salir");
       System.out.print("Elige una opción: ");
-      opcion = scanner.nextInt();
 
-      switch (opcion) {
-        case 1 -> ejecutarOpcion1();
-        case 2 -> System.out.println(LocalDateTime.now());
-        case 3 -> System.out.println("Saliendo...");
-        default -> System.out.println("Opción no válida.");
+      if (scanner.hasNextInt()) {
+        opcion = scanner.nextInt();
+        switch (opcion) {
+          case 1 -> ejecutarOpcion1();
+          case 2 -> System.out.println(LocalDateTime.now());
+          case 3 -> System.out.println("Saliendo...");
+          default -> System.out.println("Opción no válida.");
+        }
+      } else {
+        System.out.println("Por favor, introduce un número válido.");
+        scanner.next();
+        opcion = 0;
       }
     } while (opcion != 3);
   }
 
   private static void ejecutarOpcion1() {
     System.out.println("Has seleccionado la Opción 1.");
-    System.out.println("Aquí puedes realizar alguna acción específica.");
+    System.out.println("Realizando acción de la Opción 1...");
   }
 }

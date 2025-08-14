@@ -3,7 +3,7 @@ package conceptos.estructurascontrol.switchcase;
 public class EjemploChar {
 
   public static void main(String[] args) {
-    char letra = '.';
+    char letra = '%';
 
     switch (letra) {
       case 'a':
