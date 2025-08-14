@@ -12,6 +12,7 @@ public class ArrayListExample {
     nombres.add("María");
     nombres.add("Carlos");
     nombres.add("Pedro");
+    nombres.add("Carlos");
 
     System.out.println(nombres.indexOf("Carlos"));
 

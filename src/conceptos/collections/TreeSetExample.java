@@ -15,5 +15,6 @@ public class TreeSetExample {
     System.out.println("Conjunto ordenado: " + numerosOrdenados);
     System.out.println("Primer elemento: " + numerosOrdenados.first());
     System.out.println("Último elemento: " + numerosOrdenados.last());
+    System.out.println("Numero de elementos: " + numerosOrdenados.size());
   }
 }

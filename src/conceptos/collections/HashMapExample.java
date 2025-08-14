@@ -14,7 +14,7 @@ public class HashMapExample {
     tabla.put(3, "Azul");
     tabla.put(4, "Amarillo");
 
-    System.out.println("Hashtable: " + tabla);
+    System.out.println("Hashmap: " + tabla);
     System.out.println("Valor asociado a la clave 2: " + tabla.get(2));
 
     tabla.remove(1);
